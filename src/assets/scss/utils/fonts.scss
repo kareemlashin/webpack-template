@@ -1,0 +1,16 @@
+@import "mixins.scss";
+@font-face {
+    font-family: AvenirNextCyr-Demi;
+    src: url('/assets/fonts/AvenirNextCyr-Demi.woff2') format("woff2"), url('/assets/fonts/AvenirNextCyr-Demi.woff') format("woff"), url('/assets/fonts/AvenirNextCyr-Demi.ttf') format("truetype");
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "cairo";
+    src: url("/assets/fonts/Cairo-Black.ttf") format("ttf"), url("/assets/fonts/Cairo-Bold.ttf") format("ttf");
+}
+
+* {
+    font-family: "cairo" !important;
+}
